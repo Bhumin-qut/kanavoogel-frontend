@@ -6,7 +6,6 @@ import {
   faClipboardCheck,
   faClock,
   faListCheck,
-  faMedal,
   faPlay,
   faStar,
   faTrophy,
