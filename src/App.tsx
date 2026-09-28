@@ -1,3 +1,4 @@
+import { assessmentRoutes } from './pages/assessments/routes'
 import { Home } from './pages/public/Home'
 import { Login } from './pages/public/Login'
 import { Register } from './pages/public/Register'
@@ -14,5 +15,7 @@ export default function App() {
   if (path === '/wallet') return <SkillsWallet />
   if (path === '/profile/edit') return <EditProfile />
   if (path === '/profile') return <Profile />
+  const AssessmentPage = assessmentRoutes[path]
+  if (AssessmentPage) return <AssessmentPage />
   return <Home />
 }
