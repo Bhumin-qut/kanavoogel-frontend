@@ -853,6 +853,8 @@
   font-size: 1.6rem;
   font-weight: 750;
   line-height: 1.2;
+}
+
 .profile {
   background: var(--color-accent-soft);
   flex: 1;
