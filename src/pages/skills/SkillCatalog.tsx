@@ -1,7 +1,7 @@
 import Alert from 'react-bootstrap/Alert'
 import ListGroup from 'react-bootstrap/ListGroup'
 import Spinner from 'react-bootstrap/Spinner'
-import { useSkills } from '../hooks/useSkills'
+import { useSkills } from '../../hooks/useSkills'
 
 export function SkillCatalog() {
   const { skills, loading, error } = useSkills()
