@@ -2,8 +2,8 @@ import Alert from 'react-bootstrap/Alert'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import { useResults } from '../hooks/useResults'
-import { formatLabel, formatPercent } from '../utils/format'
+import { useResults } from '../../hooks/useResults'
+import { formatLabel, formatPercent } from '../../utils/format'
 
 type AssessmentResultViewProps = {
   assessmentId: string

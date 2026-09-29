@@ -4,7 +4,7 @@ import '../styles/style.css'
 
 const FOOTER_LINKS = [
   { label: 'Privacy Policy', href: '/privacy' },
-  { label: 'Terms of Condition', href: '/terms' },
+  { label: 'Terms of Accreditation', href: '/terms' },
   { label: 'Audit Ledger', href: '/audit-ledger' },
 ] as const
 
